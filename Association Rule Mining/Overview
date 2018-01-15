@@ -1,0 +1,23 @@
+Association Rule Mining
+A store is interested in determining the associations between items purchased from the Health and Beauty Aids department and the Stationery Department. The store chose to conduct a market basket analysis of specific items purchased from these two departments. TRANSACTIONS contains information about over 400,000 transactions made over the past three months. The following 17 products are represented in the data set: bar soap, bows, candy bars, deodorant, greeting cards, magazines, markers, pain relievers, pencils, pens, perfume, photo processing, prescription medications, shampoo, toothbrushes, toothpaste, and wrapping paper.
+There are four variables in the data set:
+Name	Model Role	Data Type	Description
+STORE	Ignore	Numeric	Identification number of the store
+TRANSACTION	Ident	Numeric	Transaction identification number
+PRODUCT	Target	Categorical	Product purchased
+QUANTITY	Ignore	Numeric	Quantity of this product purchased
+
+1.	Use R to generate Association Rules (based on the code shown in class):
+a.	Set Support to 0.03.
+b.	Set Confidence to 0.20.
+c.	Set Min Length to 1.
+d.	Show the Top Ten Association Rules.
+e.	Remove all duplicate/redundant rules
+2.	Examine the results of the analysis.
+a.	What is the highest lift value for the resulting rules?  Which rule has this value?
+b.	Show how this lift value was calculated.
+c.	Interpret the first five rules in the output in words.
+d.	Reviewing the top 10 rules, based on their lift ratios, comment on their redundancy and how you would assess their utility as a decision maker. 
+
+
+
