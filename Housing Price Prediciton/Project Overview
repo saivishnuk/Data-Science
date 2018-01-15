@@ -1,0 +1,29 @@
+Project Overview: 
+
+Everyone has a dream to “own a house” and being conscious about the price of the property is very important when buying a new one. Multiple information sources like websites, reality tv shows and friends create a lot of confusion. What if, a machine estimates the price based on the characteristics of the property! In this project, we aim to identify the relationship between characteristics of the property and price of the property. 
+Data Description:
+This dataset mainly consists of the sale of individual residential property in Ames, Iowa from 2006 to 2010. The acquired data is second-hand data. The dataset contains 2930 observations and many explanatory variables involved in assessing home values. There are 80 different variables that define different physical attributes of the property. 
+The dataset has comprehensive attributes of houses consisting of 20 continuous, 46 categorical variables (23 nominal, 23 ordinal) and 14 discrete variables. The data covers qualitative and quantitative aspects ranging from: 
+Indoor Variables: bedrooms, kitchen, bathrooms, air conditioning, fireplaces, electrical systems etc
+Outdoor Variable: Type of foundation, exterior covering of the house, type of dwelling, stories, pool, garage, porch etc
+Other Variables: Location, year sold, type of sale, condition of sale, zoning classification etc
+Data source: https://ww2.amstat.org/publications/jse/v19n3/decock.pdf 
+Link to Data: http://www.amstat.org/publications/jse/v19n3/decock/AmesHousing.xls 
+
+Approach to be followed:
+•	Data has information about 2930 houses, which will be divided into training dataset (75%) and test dataset (25%). We will use the information in the training dataset to understand relationship between price and other characteristics of the property and validate the accuracy of the relationship using the test dataset
+•	Understanding the data: Identifying missing values, outliers and other factors that can affect the predictive power
+•	Statistical Techniques: In each technique mentioned below our aim is to minimize RMSE (root mean squared error), also called RMSD (root mean squared deviation) or MAE (mean absolute error). Both measures are used to evaluate models by summarizing the differences between the actual (observed) and predicted values. MAE gives equal weight to all errors, while RMSE gives extra weight to large errors.
+Tentative Techniques that will be used: Since we are not yet aware of the nature of the relationship between price (dependent) and characteristics(independent) variables, we are planning to use both linear and non-linear techniques.   
+1.	Regression: Linear, Ridge
+2.	Variable Reduction: Principal Component Analysis 
+3.	Decision Trees: CHAID, CART
+4.	Random Forest
+5.	Xgboost
+
+Callouts:
+•	Data is about the price of the property in Iowa and since the price of the property changes from state to state, our predictions might be valid only for estimating the property prices in Iowa
+•	Data has information only till 2010, we aim to adjust for the factors like inflation and real estate market growth to estimate the property price as of today 
+•	During the project we might incorporate some more statistical techniques 
+
+
