@@ -15,11 +15,9 @@ Approach to be followed:
 •	Understanding the data: Identifying missing values, outliers and other factors that can affect the predictive power
 •	Statistical Techniques: In each technique mentioned below our aim is to minimize RMSE (root mean squared error), also called RMSD (root mean squared deviation) or MAE (mean absolute error). Both measures are used to evaluate models by summarizing the differences between the actual (observed) and predicted values. MAE gives equal weight to all errors, while RMSE gives extra weight to large errors.
 Tentative Techniques that will be used: Since we are not yet aware of the nature of the relationship between price (dependent) and characteristics(independent) variables, we are planning to use both linear and non-linear techniques.   
-1.	Regression: Linear, Ridge
-2.	Variable Reduction: Principal Component Analysis 
-3.	Decision Trees: CHAID, CART
-4.	Random Forest
-5.	Xgboost
+1.	Regression: Linear 
+2.	Regression Trees: CART
+3.	Random Forest
 
 Callouts:
 •	Data is about the price of the property in Iowa and since the price of the property changes from state to state, our predictions might be valid only for estimating the property prices in Iowa
